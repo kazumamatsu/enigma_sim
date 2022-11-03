@@ -6,6 +6,7 @@ setuptools.setup(
     description="3rotors eniguma machine simulater",
     author="kazumamatsu",
     url = "https://github.com/kazumamatsu/enigma_sim.git",
+    packages=setuptools.find_packages("enigma_simulater"),
     entry_points = {
         'console_scripts': ['enigma = enigma.enigma_simulater:enigma']
     }
