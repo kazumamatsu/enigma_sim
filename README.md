@@ -1,6 +1,6 @@
-# eniguma_sim
+# enigma_sim
 ３ローターのエニグマシミュレータです。  
-This is 3 rotors eniguma simulater
+This is 3 rotors enigma simulater
 
 
 
