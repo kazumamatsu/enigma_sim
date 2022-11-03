@@ -15,9 +15,14 @@ python -m pip install git+https://github.com/kazumamatsu/enigma_sim.git
 import enigma
 ```
 
+### Example script
+
 ```python
-setting = list("AAA")
-E = enigma.enigma(setting[0], setting[1], setting[2])
+config = list("AAA")
+```
+#### Encryption
+```python
+E = enigma.enigma(config[0], config[1], config[2])
 text = list(str.upper("AAA"))
 print(text)
 code = []
@@ -25,4 +30,14 @@ for t in text:
   code.append(E.typing(t))
   E.print(ptype = 0)
 print(code)
+```
+
+#### Decoding
+```python
+E = enigma.enigma(config[0], config[1], config[2])
+decode = []
+for t in code:
+  decode.append(E.typing(t))
+  E.print(ptype = 0)
+decode
 ```
