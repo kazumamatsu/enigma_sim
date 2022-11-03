@@ -76,7 +76,7 @@ output:
 ```
 
 
-#### Decoding
+#### Decoding:
 ```python
 E = enigma.enigma(config[0], config[1], config[2], seed = 100)
 decode = []
