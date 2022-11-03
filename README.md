@@ -1,6 +1,8 @@
 # eniguma_sim
-３ローターのエニグマシミュレータです。
+３ローターのエニグマシミュレータです。  
 This is 3 rotors eniguma simulater
+
+
 
 ```python
 
