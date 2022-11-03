@@ -1,7 +1,5 @@
-# Enigma simulater
----
-## Overview
----
+# Enigma simulater---
+## Overview---
 This is 3 rotors enigma simulater  
 ３ローターのエニグマシミュレータです。  
 
