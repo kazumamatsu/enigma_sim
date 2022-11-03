@@ -52,7 +52,7 @@ output:
 ```
 
 #### If you want to display the process
-```pyhon
+```python
 E = enigma.enigma(config[0], config[1], config[2], seed = 100)
 text = list(str.upper(input()))
 code = []
