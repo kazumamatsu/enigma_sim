@@ -1,4 +1,5 @@
 # eniguma_sim
+３ローターのエニグマシミュレータです。
 This is 3 rotors eniguma simulater
 
 ```python
@@ -85,6 +86,4 @@ class enigma():
       print(self.str1,"->",self.x_f3,"->",self.x_f2,"->",self.x_f1,"->",self.x_r,"->",self.x_b1,"->",self.x_b2,"->",self.x_b3,"->",self.x_o)
     else:
       print(self.str1,"->",self.x_o)
-
-
 ```
