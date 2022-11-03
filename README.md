@@ -1,12 +1,12 @@
 # Enigma simulater
-___
+
 ## Overview
-___
+
 This is 3 rotors enigma simulater  
 ３ローターのエニグマシミュレータです。  
 
 ## Quickstart
-___
+
 ### Installation
 In Python:
 ```python
@@ -18,7 +18,6 @@ In IPython:
 ```
 
 ### Using enigma_simulater in a Python script
----
 #### Import module
 ```python
 import enigma
