@@ -13,16 +13,16 @@ python -m pip install git+https://github.com/kazumamatsu/enigma_sim.git
 ```
 
 ### Using enigma_simulater in a Python script
+0. 
 ```python
 import enigma
 ```
 
-- 1.
-
+1. Setting config
 ```python
 config = list("AAA")
 ```
-- 2. Encryption
+1. Encryption
 ```python
 E = enigma.enigma(config[0], config[1], config[2])
 text = list(str.upper("AAA"))
@@ -34,7 +34,7 @@ for t in text:
 print(code)
 ```
 
-- 3. Decoding
+1. Decoding
 ```python
 E = enigma.enigma(config[0], config[1], config[2])
 decode = []
