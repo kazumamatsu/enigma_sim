@@ -18,16 +18,17 @@ In IPython:
 ```
 
 ### Using enigma_simulater in a Python script
-- Import module
+#### Import module
 ```python
 import enigma
 ```
-- Setting config 
+
+#### Setting config 
 ```python
 config = list("AAA")
 ```
 
-- Encryption
+#### Encryption
 ```python
 E = enigma.enigma(config[0], config[1], config[2], seed = 100)
 text = list(str.upper(input()))
@@ -48,7 +49,7 @@ output:
 >>> ['Y', 'U', 'I']
 ```
 
-- Decoding
+#### Decoding
 ```python
 E = enigma.enigma(config[0], config[1], config[2], seed = 100)
 decode = []
