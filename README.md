@@ -41,13 +41,14 @@ print(code)
 
 input:
 ```python
-AAA
+JAPAN
 ```
 
 output:
 ```python
->>> ['A', 'A', 'A']
->>> ['Y', 'U', 'I']
+>>> JAPAN
+>>> ['J', 'A', 'P', 'A', 'N']
+>>> ['W', 'U', 'Z', 'H', 'W']
 ```
 
 #### If you want to display the process:
@@ -64,11 +65,14 @@ print(code)
 
 output:
 ```python
->>> A -> R -> L -> U -> G -> S -> Q -> S -> Y
+>>> JAPAN
+>>> J -> Y -> H -> Q -> K -> G -> Z -> L -> W
 >>> A -> B -> P -> K -> D -> R -> J -> O -> U
->>> A -> Z -> T -> P -> C -> W -> R -> I -> I
->>> ['A', 'A', 'A']
->>> ['Y', 'U', 'I']
+>>> P -> E -> N -> Z -> A -> M -> E -> B -> Z
+>>> A -> H -> M -> H -> F -> A -> O -> I -> H
+>>> N -> E -> P -> K -> D -> R -> J -> R -> W
+>>> ['J', 'A', 'P', 'A', 'N']
+>>> ['W', 'U', 'Z', 'H', 'W']
 ```
 
 
@@ -83,5 +87,5 @@ print(decode)
 
 output:
 ```python
->>> ['A', 'A', 'A']
+>>> ['J', 'A', 'P', 'A', 'N']
 ```
