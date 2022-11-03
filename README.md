@@ -14,7 +14,7 @@ python -m pip install git+https://github.com/kazumamatsu/enigma_sim.git
 ```
 In IPython:
 ```python
-python -m pip install git+https://github.com/kazumamatsu/enigma_sim.git
+!pip install git+https://github.com/kazumamatsu/enigma_sim.git
 ```
 
 ### Using enigma_simulater in a Python script
