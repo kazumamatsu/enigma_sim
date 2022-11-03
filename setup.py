@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name="enigma",
@@ -8,4 +8,5 @@ setup(
     url = "https://github.com/kazumamatsu/enigma_sim.git",
     packages=setuptools.find_packages("enigma_simulater"),
     requires=["string","random","sys"],
+    packages=find_packages(),
 )
