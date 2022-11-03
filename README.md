@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is 3 rotors enigma simulater
+This is 3 rotors enigma simulater  
 ３ローターのエニグマシミュレータです。  
 
 ## Quickstart
