@@ -19,12 +19,14 @@ import enigma
 ```
 
 1. Setting config
+1.  
 ```python
 config = list("AAA")
 ```
-1. Encryption
+
+. Encryption
 ```python
-E = enigma.enigma(config[0], config[1], config[2])
+E = enigma.enigma(config[0], config[1], config[2], seed = 100)
 text = list(str.upper("AAA"))
 print(text)
 code = []
@@ -33,13 +35,16 @@ for t in text:
   E.print(ptype = 0)
 print(code)
 ```
-
-1. Decoding
+output:
 ```python
-E = enigma.enigma(config[0], config[1], config[2])
+```
+
+4. Decoding
+```python
+E = enigma.enigma(config[0], config[1], config[2], seed = 100)
 decode = []
 for t in code:
   decode.append(E.typing(t))
   E.print(ptype = 0)
-decode
+print(decode)
 ```
