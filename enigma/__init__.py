@@ -1,1 +1,1 @@
-from enigma.enigma_simulater import enigma
+from enigma import enigma_simulater
