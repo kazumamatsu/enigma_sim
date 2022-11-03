@@ -1,3 +1,1 @@
-from .enigma_simulater import (
-    enigma,
-)
+from enigma.enigma_simulater import enigma
