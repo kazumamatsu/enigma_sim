@@ -13,7 +13,7 @@ python -m pip install git+https://github.com/kazumamatsu/enigma_sim.git
 ```
 
 ### Using enigma_simulater in a Python script
-1. 
+1. Import module
 ```python
 import enigma
 ```
