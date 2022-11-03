@@ -51,7 +51,7 @@ output:
 >>> ['W', 'U', 'Z', 'H', 'W']
 ```
 
-#### If you want to display the process:
+#### If you want to display the process
 ```pyhon
 E = enigma.enigma(config[0], config[1], config[2], seed = 100)
 text = list(str.upper(input()))
@@ -76,7 +76,7 @@ output:
 ```
 
 
-#### Decoding:
+#### Decoding
 ```python
 E = enigma.enigma(config[0], config[1], config[2], seed = 100)
 decode = []
