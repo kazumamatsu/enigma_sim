@@ -1,12 +1,12 @@
 # enigma_simulater
----
+
 ## Overview
----
+
 This is 3 rotors enigma simulater
 ３ローターのエニグマシミュレータです。  
 
 ## Quickstart
----
+
 ### Installation
 ```python
 python -m pip install git+https://github.com/kazumamatsu/enigma_sim.git
