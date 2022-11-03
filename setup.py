@@ -9,6 +9,6 @@ setuptools.setup(
     packages=setuptools.find_packages("enigma_simulater"),
     requires=["string","random","sys"],
     entry_points = {
-        'console_scripts': ['enigma = enigma.enigma_simulater:enigma']
+        'console_scripts': ['enigma = enigma.__init__']
     }
 )
