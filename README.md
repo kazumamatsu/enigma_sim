@@ -38,6 +38,7 @@ for t in text:
 print(text)
 print(code)
 ```
+
 input:
 ```python
 AAA
@@ -48,6 +49,27 @@ output:
 >>> ['A', 'A', 'A']
 >>> ['Y', 'U', 'I']
 ```
+
+#### If you want to display the process:
+```pyhon
+E = enigma.enigma(config[0], config[1], config[2], seed = 100)
+text = list(str.upper(input()))
+code = []
+for t in text:
+  code.append(E.typing(t))
+print(text)
+print(code)
+```
+
+output:
+```python
+>>> ['A', 'A', 'A']
+>>> A -> R -> L -> U -> G -> S -> Q -> S -> Y
+>>> A -> B -> P -> K -> D -> R -> J -> O -> U
+>>> A -> Z -> T -> P -> C -> W -> R -> I -> I
+>>> ['Y', 'U', 'I']
+```
+
 
 #### Decoding
 ```python
