@@ -57,16 +57,17 @@ text = list(str.upper(input()))
 code = []
 for t in text:
   code.append(E.typing(t))
+  E.print(ptype = 0)
 print(text)
 print(code)
 ```
 
 output:
 ```python
->>> ['A', 'A', 'A']
 >>> A -> R -> L -> U -> G -> S -> Q -> S -> Y
 >>> A -> B -> P -> K -> D -> R -> J -> O -> U
 >>> A -> Z -> T -> P -> C -> W -> R -> I -> I
+>>> ['A', 'A', 'A']
 >>> ['Y', 'U', 'I']
 ```
 
