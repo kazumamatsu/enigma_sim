@@ -17,12 +17,12 @@ python -m pip install git+https://github.com/kazumamatsu/enigma_sim.git
 import enigma
 ```
 
-#### 1.
+- 1.
 
 ```python
 config = list("AAA")
 ```
-#### Encryption
+- 2. Encryption
 ```python
 E = enigma.enigma(config[0], config[1], config[2])
 text = list(str.upper("AAA"))
@@ -34,7 +34,7 @@ for t in text:
 print(code)
 ```
 
-#### Decoding
+- 3. Decoding
 ```python
 E = enigma.enigma(config[0], config[1], config[2])
 decode = []
