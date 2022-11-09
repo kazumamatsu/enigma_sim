@@ -75,7 +75,6 @@ output:
 >>> ['W', 'U', 'Z', 'H', 'W']
 ```
 
-
 #### Decoding
 ```python
 E = enigma.enigma(config[0], config[1], config[2], seed = 100)
@@ -89,3 +88,15 @@ output:
 ```python
 >>> ['J', 'A', 'P', 'A', 'N']
 ```
+
+#### Print option
+```python
+E.print(ptype = 0)
+>>> J -> Y -> H -> Q -> K -> G -> Z -> L -> W
+```
+
+```python
+E.print(ptype = 1)
+>>> J -> W
+```
+
