@@ -3,7 +3,7 @@
 ## Overview
 
 This is 3 rotors enigma simulater  
-３ローターのエニグマシミュレータです。  
+３ローターのエニグマシミュレータです。  日本語解説は、[こちらから](https://qiita.com/kazumamatsu/items/720d325964fedec6271f)
 
 ## Quickstart
 
