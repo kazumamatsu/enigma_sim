@@ -58,7 +58,7 @@ text = list(str.upper(input()))
 code = []
 for t in text:
   code.append(E.typing(t))
-  E.print(ptype = 0)
+  E.dec_print(ptype = 0)
 print(text)
 print(code)
 ```
@@ -91,12 +91,12 @@ output:
 
 #### Print option
 ```python
-E.print(ptype = 0)
+E.dec_print(ptype = 0)
 >>> J -> Y -> H -> Q -> K -> G -> Z -> L -> W
 ```
 
 ```python
-E.print(ptype = 1)
+E.dec_print(ptype = 1)
 >>> J -> W
 ```
 
