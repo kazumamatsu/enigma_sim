@@ -77,7 +77,7 @@ class enigma():
     self.x_o = self.inout[self.y_b3]
     return(self.x_o)
 
-  def print(self,ptype = 0):
+  def dec_print(self,ptype = 0):
     if ptype == 0:
       print(self.str1,"->",self.x_f3,"->",self.x_f2,"->",self.x_f1,"->",self.x_r,"->",self.x_b1,"->",self.x_b2,"->",self.x_b3,"->",self.x_o)
     else:
@@ -92,7 +92,7 @@ if __name__ == "__main__":
   code = []
   for t in text:
     code.append(E.typing(t))
-  #  E.print(ptype = 0)
+  #  E.dec_print(ptype = 0)
   code
 
   ## decoding
@@ -100,5 +100,5 @@ if __name__ == "__main__":
   decode = []
   for t in code:
     decode.append(E.typing(t))
-    E.print(ptype = 0)
+    E.dec_print(ptype = 0)
   decode
